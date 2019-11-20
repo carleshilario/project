@@ -1,16 +1,24 @@
-#Counting the number of files
+#!/usr/bin/env bash
+# File: gessinggame.sh
 
-files=$(ls -1 | wc -l)
-echo "number of files:" $files 
+#Counting number of files in the current directory
+#Here is the function
 
-#Asking the numbers of files 
+function count {
+	files=$(ls -1 | wc -l)
+}
+
+count
+
+#Asking numbers of files
 
 echo "How many files are in this directory?"
 echo "Please enter a number:"
 read guessvalue
 echo "you entered" $guessvalue
 
-#Comparing values
+#Compare values
+#Here is the loop and the if statement
 
 while [[ $guessvalue -ne $files ]]
 do
