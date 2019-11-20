@@ -1,3 +1,3 @@
 The Guessing Game
-dt nov 19 23:48:52 CET 2019
-30 guessinggame.sh
+dc nov 20 22:04:33 CET 2019
+38 guessinggame.sh
